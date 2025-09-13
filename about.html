@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About – Learners Digital</title>
+  <meta name="description" content="Our mission is to bridge academia and industry through skill-first education and hiring.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="icon" type="image/png" href="assets/logo.png">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        <img class="brand-logo" src="assets/logo.png" alt="Learners Digital"/>
+        <span class="brand-name">Learners Digital</span>
+      </a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="corporates.html">For Corporates</a>
+        <a href="universities.html">For Universities</a>
+        <a href="about.html" aria-current="page">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <a class="btn btn-primary nav-cta" href="corporates.html">Hire with Us</a>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <div class="container split">
+        <div class="stack-lg">
+          <h1>Mission & Story</h1>
+          <p class="muted">We are on a mission to bridge academia and industry by preparing students and early professionals with job-ready skills, while enabling companies to hire efficiently.</p>
+          <div class="panel">
+            <h3>What drives us</h3>
+            <p>Employability comes from hands-on, outcome-driven learning. We bring industry to the classroom and the best students to companies.</p>
+          </div>
+        </div>
+        <div>
+          <div class="timeline">
+            <div class="milestone">
+              <div class="dot"></div>
+              <div class="milestone-card">
+                <div class="when">2021</div>
+                <div>Founded with the vision to align education with industry needs.</div>
+              </div>
+            </div>
+            <div class="milestone">
+              <div class="dot"></div>
+              <div class="milestone-card">
+                <div class="when">2022</div>
+                <div>Launched university collaboration pilots and corporate trainings.</div>
+              </div>
+            </div>
+            <div class="milestone">
+              <div class="dot"></div>
+              <div class="milestone-card">
+                <div class="when">2023</div>
+                <div>Expanded to structured electives and curated recruitment drives.</div>
+              </div>
+            </div>
+            <div class="milestone">
+              <div class="dot"></div>
+              <div class="milestone-card">
+                <div class="when">2024–Present</div>
+                <div>3000+ learners trained, 5+ partner companies, 3+ university programs delivered.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>© <span id="year"></span> Learners Digital. All rights reserved.</div>
+      <div class="footer-links">
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/@supabase/supabase-js@2"></script>
+  <script src="assets/app.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
+
+

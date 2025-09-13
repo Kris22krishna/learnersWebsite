@@ -1,0 +1,46 @@
+{
+    "videos": [
+        {
+            "id": 1,
+            "ytLink": "https://youtu.be/example1",
+            "title": "University Workshop Series",
+            "description": "Interactive workshop series conducted at partner universities, focusing on practical skill development and industry readiness. Students engage in hands-on projects and real-world problem solving."
+        },
+        {
+            "id": 2,
+            "ytLink": "https://youtu.be/example2",
+            "title": "Elective Program Launch",
+            "description": "Launch of our curriculum-integrated elective programs designed to bridge the gap between academic learning and industry requirements. Faculty and students collaborate on innovative projects."
+        }
+    ],
+    "photos": [
+        {
+            "id": 1,
+            "filename": "university_workshop_1.jpg",
+            "title": "Student Workshop Session",
+            "description": "Students actively participating in hands-on learning"
+        },
+        {
+            "id": 2,
+            "filename": "university_workshop_2.jpg",
+            "title": "Faculty Collaboration",
+            "description": "Faculty members working with our team on curriculum development"
+        }
+    ],
+    "documents": [
+        {
+            "id": 1,
+            "filename": "University-Partnership-Brochure.pdf",
+            "title": "University Partnership Brochure",
+            "description": "Comprehensive guide to our university collaboration programs",
+            "type": "PDF"
+        },
+        {
+            "id": 2,
+            "filename": "Elective-Curriculum-Outline.pdf",
+            "title": "Elective Curriculum Outline",
+            "description": "Detailed curriculum structure for our elective programs",
+            "type": "PDF"
+        }
+    ]
+}

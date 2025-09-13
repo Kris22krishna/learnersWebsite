@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact – Learners Digital</title>
+  <meta name="description" content="Get in touch for corporate partnerships or university programs.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="icon" type="image/png" href="assets/logo.png">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        <img class="brand-logo" src="assets/logo.png" alt="Learners Digital"/>
+        <span class="brand-name">Learners Digital</span>
+      </a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="corporates.html">For Corporates</a>
+        <a href="universities.html">For Universities</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" aria-current="page">Contact</a>
+      </nav>
+      <a class="btn btn-primary nav-cta" href="corporates.html">Hire with Us</a>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <div class="container split">
+        <div class="stack">
+          <h1>Contact us</h1>
+          <p class="muted">We’d love to collaborate with your company or campus.</p>
+
+          <div class="panel stack-sm">
+            <div><strong>Email:</strong> <a href="mailto:muralikonareddy@gmail.com">contact@learnersdigital.com</a></div>
+            <div><strong>Phone:</strong> <a href="tel:+919876543210">+91 99169 33202</a></div>
+          </div>
+
+          <form id="form-contact" class="form panel">
+            <div class="field">
+              <label class="label" for="ct-name">Your Name</label>
+              <input class="input" id="ct-name" name="name" required placeholder="Your full name">
+            </div>
+            <div class="field row">
+              <div style="flex:1 1 200px">
+                <label class="label" for="ct-email">Email</label>
+                <input type="email" class="input" id="ct-email" name="email" required placeholder="you@example.com">
+              </div>
+              <div style="flex:1 1 200px">
+                <label class="label" for="ct-type">I am from</label>
+                <select class="select" id="ct-type" name="type" required>
+                  <option value="">Select</option>
+                  <option>Corporate</option>
+                  <option>University</option>
+                  <option>Other</option>
+                </select>
+              </div>
+            </div>
+            <div class="field">
+              <label class="label" for="ct-msg">Message</label>
+              <textarea class="textarea" id="ct-msg" name="message" rows="4" placeholder="How can we help?"></textarea>
+            </div>
+            <button class="btn btn-primary" type="submit">Send Message</button>
+            <div class="success">Thanks! We’ll be in touch soon.</div>
+          </form>
+        </div>
+        <div class="panel">
+          <div class="stack">
+            <h3>Our Location</h3>
+            <p class="muted">Learners Digital, CA Site #1, Hanchya Main Rd, Sathgalli, Mysuru, Karnataka 570029, India.</p>
+            <div style="position:relative;padding-bottom:56%;height:0;overflow:hidden;border-radius:12px;border:1px solid rgba(230,234,242,0.08);margin-top:8px">
+              <iframe title="Learners Digital" src="https://www.google.com/maps?q=12.332745,76.7008325&z=15&output=embed" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>© <span id="year"></span> Learners Digital. All rights reserved.</div>
+      <div class="footer-links">
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/@supabase/supabase-js@2"></script>
+  <script src="assets/app.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
+
+
