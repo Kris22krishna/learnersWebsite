@@ -12,6 +12,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/styles.css">
   <link rel="icon" type="image/png" href="assets/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sriracha&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -23,66 +26,243 @@
       </a>
       <nav class="nav-links">
         <a href="index.html" aria-current="page">Home</a>
-        <a href="corporates.html">For Corporates</a>
-        <a href="universities.html">For Universities</a>
+        <a href="index.html#for-corporates">For Corporates</a>
+        <a href="index.html#for-universities">For Universities</a>
         <a href="about.html">About</a>
         <a href="contact.html">Contact</a>
       </nav>
-      <a class="btn btn-primary nav-cta" href="corporates.html">Hire with Us</a>
+      <!-- <a class="btn btn-primary nav-cta" href="corporates.html">Hire with Us</a> -->
     </div>
   </header>
 
   <main>
     <section class="hero">
       <div class="container hero-grid">
-        <div>
-          <span class="eyebrow"><strong>Bridging Academia and Industry</strong></span>
-          <h1>Skilling Talent. Powering Industry.</h1>
-          <p>We help companies hire industry-ready talent and enable universities to deliver job-aligned learning
-            through electives, workshops, and internships.</p>
-          <div class="hero-cta">
-            <a class="btn btn-primary" href="universities.html#consult">Partner with Us</a>
-            <a class="btn btn-outline" href="corporates.html#request">Hire with Us</a>
-          </div>
-          <div class="stats">
-            <div class="stat">
-              <div class="value">3000+</div>
-              <div class="label">Learners Trained</div>
-            </div>
-            <div class="stat">
-              <div class="value">7+</div>
-              <div class="label">Hiring Partners</div>
-            </div>
-            <div class="stat">
-              <div class="value">10+</div>
-              <div class="label">University Programs</div>
-            </div>
-          </div>
+        <!-- Left column -->
+        <div class="hero-left">
+          <!-- <span class="eyebrow"><strong>Bridge the gap between academia and industry</strong></span> -->
+          <h1>Acquire, Train & Deploy Future-Ready IT Talent</h1>
+          <p>
+            We help companies hire industry-ready talent and enable universities to deliver job-aligned learning
+            through electives, workshops, and internships.
+          </p>
+          
         </div>
+    
+        <!-- Right column -->
         <div class="hero-right">
           <div class="logo-container">
-            <img class="logo-hero" src="assets/logo.png" alt="Learners Digital" />
-          </div>
-          <div class="hero-card">
-            <div class="stack">
-              <h3>What we do</h3>
-              <p class="muted">Corporate training and curated recruitment services for IT and core engineering.
-                University
-                collaboration programs with skill-based electives, workshops, and placement support.</p>
-              <div class="row">
-                <a class="btn" href="corporates.html">Corporate Services</a>
-                <a class="btn" href="universities.html">University Programs</a>
-              </div>
-            </div>
+            <img class="logo-hero" src="assets/logo.png" alt="Learners Digital" width="250" height="250" />
           </div>
         </div>
       </div>
-    </section>
+   
+    
+  
+    <div class="hero-cta">
+      <a class="btn btn--primary" href="contact.html">Partner with Us</a>
+      <!-- <a class="btn btn-outline" href="corporates.html#request">Hire with Us</a> -->
+    </div>
+    <br/>
+  </section>
+
+  <br/>
+
+    <div class="stats container">
+      <div class="stat">
+        <div class="value">3000+</div>
+        <div class="label">Trained and Placed</div>
+      </div>
+      <div class="stat">
+        <div class="value">7+</div>
+        <div class="label">Hiring Partners</div>
+      </div>
+      <div class="stat">
+        <div class="value">20+</div>
+        <div class="label">University Partners</div>
+      </div>
+    </div>
+  </div>
+
+<br><br>
+
+  <div class="container philo">
+  
+    <!-- Left (Quote) + Right (Methodology) -->
+    <div class="content">
+      
+      <!-- Left side: Quote -->
+      <div class="left">
+        <h2>Our Philosophy</h2>
+        <br>
+        <div class="quote-box">
+          "Give a Man a Fish, You Feed Him for a Day. Teach a Man To Fish, You Feed Him for a Lifetime."
+        </div>
+      </div>
+  
+      <!-- Right side: Methodology -->
+      <div class="right">
+        <h2>Our Learning Methodology</h2>
+        <div class="stats">
+          <div class="stat" style="transform: scale(0.9);">
+            <div class="value" >Study Technology</div>
+            <div class="label">Removing barriers, building independent learners</div>
+          </div>
+          <div class="stat" style="transform: scale(0.9);">
+            <div class="value">5W1H</div>
+            <div class="label">Simplifying concepts through the power of questions</div>
+          </div>
+          <div class="stat" style="transform: scale(0.9);">
+            <div class="value">Mind Mapping</div>
+            <div class="label">Organize knowledge the way your brain thinks</div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    
+  </div>
+  
+<br>
+
+  <div class="container" style="display: flex; justify-content: center;">
+    <div class="highlight-box btn">
+      <h2>Study Technology + 5W1H + Mind Mapping = Independent Learners</h2>
+    </div>
+  </div>
+  
+  
+  <section class="media-gallery" aria-label="Media gallery">
+    <div class="mg-head container">
+      <h2>Our Work in Action</h2>
+    </div>
+  
+    <div class="mg-track" id="mg-track" tabindex="0">
+      <!-- Card 1 -->
+      <article class="mg-card" style="padding-left: 10%;">
+        <header class="mg-card-head">
+          <h3 class="mg-card-title">Interaction With Leaders</h3>
+          <p class="mg-card-desc">Dr. John Pyhtila, COO of Abacus Insights, interacts with Learners Digital interns.</p>
+        </header>
+        <figure class="mg-figure">
+            <iframe 
+            src="https://www.youtube.com/embed/PaaMFrUrMoY?si=9xJ5BPMRYkF0PMpD&amp;controls=0" 
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen>
+            </iframe>
+        </figure>
+      </article>
+  
+      <!-- Card 2 -->
+      <article class="mg-card">
+        <header class="mg-card-head">
+          <h3 class="mg-card-title">Recruitment Drive for Onyx</h3>
+          <p class="mg-card-desc">Over 800 students attempted the online screening test, 150 advanced to interviews, and 30 earned selection.</p>
+        </header>
+        <figure class="mg-figure">
+          <iframe 
+          src="https://www.youtube.com/embed/PFgdHcXRtx0?si=1KLf8lhSNznq5Mls&amp;controls=0"  
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen>
+            </iframe>
+        </figure>
+      </article>
+  
+      <!-- Duplicate .mg-card as needed -->
+      <article class="mg-card">
+        <header class="mg-card-head">
+          <h3 class="mg-card-title">Intensive IT Training</h3>
+          <p class="mg-card-desc">Participants completed a 4-week training in Data Engineering, Web Development, and DevOps, led by Mr. Nitesh Sharma.</p>
+        </header>
+        <figure class="mg-figure">
+          <img src="assets/media/photos/training.jpg" alt="Intensive IT Training" loading="lazy">
+        </figure>
+      </article>
+
+      <article class="mg-card">
+        <header class="mg-card-head">
+          <h3 class="mg-card-title">Leadership Meeting</h3>
+          <p class="mg-card-desc">Leaders from Learners Digital and Abacus Insights came together to discuss partnerships, innovation, and future opportunities.</p>
+        </header>
+        <figure class="mg-figure">
+          <img src="assets/media/photos/LD-Abacus.JPG" alt="Leadership Meeting" loading="lazy">
+        </figure>
+      </article>
+
+    </div>
+  </section>
+      
+  <br><br>
+
+  <section>
+    <div class="container">
+      <h2 style="display:inline;" id="for-corporates" class="anchor-target">For Corporates</h2>
+      <span><b><i>&nbsp;&nbsp;~&nbsp; Build Your Talent Pipeline</i></b></span>
+      <p class="muted">We hire and train IT talent—building their technical, soft, and domain skills through foundation programs and a unique methodology with Study Technology, 5W1H, and Mind Mapping.</p>
+      <br>
+      <div class="card-grid">
+        <div class="card">
+          <h3>Campus Recruitment Drives</h3>
+          <p>Candidate sourcing, assessments, and role-matching with transparent reporting.</p>
+        </div>
+        <div class="card">
+          <h3>Job-Ready Training</h3>
+          <p>Company-specific bootcamps designed to build confident, project-ready IT talent.</p>
+        </div>
+        <div class="card">
+          <h3>Custom Onboarding</h3>
+          <p>Company-specific onboarding to accelerate productivity in the first 90 days.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <br><br>
+
+  <section>
+    <div class="container">
+      <h2 style="display:inline;" id="for-universities" class="anchor-target">For Universities</h2>
+      <span><b><i>&nbsp;&nbsp;~&nbsp; Collaboration Programs</i></b></span>
+      <p class="muted">We co-design and deliver skill-based electives, run technical workshops, and provide placement support to improve graduate employability.</p>
+
+      <div class="card-grid">
+        <div class="card">
+          <h3>Electives</h3>
+          <p>Curriculum-integrated, credit-aligned electives in full-stack, data, AI/ML, DevOps, and core disciplines.</p>
+        </div>
+        <div class="card">
+          <h3>Workshops</h3>
+          <p>Hands-on workshops, hackathons, and mini-projects led by industry experts.</p>
+        </div>
+        <div class="card">
+          <h3>Placement Support</h3>
+          <p>Resume building, mock interviews, assessments, and direct hiring connects.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-section">
+    <div class="container cta-grid">
+      <div class="cta-text">
+        <h2 class="cta-title">Ready to Collaborate?</h2>
+        <p class="cta-subtitle">Let’s build the future of talent together. Reach out to us today!</p>
+      </div>
+      <div class="cta-action">
+        <a class="btn cta-btn" href="contact.html">Partner with Us</a>
+      </div>
+    </div>
+  </section>
+  
 
     <section>
       <div class="container">
-        <h2 class="section-title">Trusted by industry leaders</h2>
-        <p class="section-subtitle">Some of the companies we have worked with.</p>
+        <h2 class="section-title">Our Partners</h2>
+        <p class="section-subtitle">Some of the companies and universities we have worked with.</p>
         <div class="carousel">
           <div class="carousel-track">
             <div class="logo-tile">
@@ -101,6 +281,11 @@
               <span class="company-name">Newwave</span>
             </div>
             <div class="logo-tile">
+              <img src="assets/logos/Abacus.png" alt="Abacus-Insights" class="company-logo"
+                onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+              <span class="company-name">Abacus Insight</span>
+            </div>
+            <div class="logo-tile">
               <img src="assets/logos/nexturn.png" alt="Nexturn" class="company-logo"
                 onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
               <span class="company-name">Nexturn</span>
@@ -115,6 +300,12 @@
                 onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
               <span class="company-name">VTU</span>
             </div>
+            <div class="logo-tile">
+              <img src="assets/logos/iQuartic.png" alt="iQuartic" class="company-logo"
+                onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+              <span class="company-name">iQuartic</span>
+            </div>
+            
             <!-- Duplicate set for seamless loop -->
             <div class="logo-tile">
               <img src="assets/logos/Infosys.png" alt="Infosys" class="company-logo"
@@ -132,6 +323,11 @@
               <span class="company-name">Newwave</span>
             </div>
             <div class="logo-tile">
+              <img src="assets/logos/Abacus.png" alt="Abacus-Insights" class="company-logo"
+                onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+              <span class="company-name">Abacus Insight</span>
+            </div>
+            <div class="logo-tile">
               <img src="assets/logos/nexturn.png" alt="Nexturn" class="company-logo"
                 onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
               <span class="company-name">Nexturn</span>
@@ -146,46 +342,21 @@
                 onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
               <span class="company-name">VTU</span>
             </div>
-
+            <div class="logo-tile">
+              <img src="assets/logos/iQuartic.png" alt="iQuartic" class="company-logo"
+                onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+              <span class="company-name">iQuartic</span>
+            </div>
+            
           </div>
         </div>
       </div>
     </section>
-
-    <section>
-      <div class="container">
-        <h2 class="section-title">Corporate & University Solutions</h2>
-        <p class="section-subtitle">Outcome-driven programs designed for hiring and employability.</p>
-        <div class="card-grid">
-          <div class="card">
-            <h3>Curated Recruitment Drives</h3>
-            <p>End-to-end hiring support with screening, assessments, and job-fit shortlisting for IT and core roles.
-            </p>
-          </div>
-          <div class="card">
-            <h3>Candidate Training</h3>
-            <p>Job-ready training in full-stack, data, embedded, and core engineering with hands-on projects.</p>
-          </div>
-          <div class="card">
-            <h3>Custom Onboarding</h3>
-            <p>Company-specific onboarding bootcamps to accelerate time-to-productivity for new hires.</p>
-          </div>
-          <div class="card">
-            <h3>Elective Programs</h3>
-            <p>Curriculum-integrated electives aligned to industry needs, co-delivered with faculty support.</p>
-          </div>
-          <div class="card">
-            <h3>Workshops & Hackathons</h3>
-            <p>Practical, outcome-focused workshops to build portfolios and prepare for placements.</p>
-          </div>
-          <div class="card">
-            <h3>Placement Support</h3>
-            <p>Interview prep, mock tests, and direct hiring pipelines with partner companies.</p>
-          </div>
-        </div>
-      </div>
-    </section>
+    
+  
   </main>
+
+
 
   <footer class="site-footer">
     <div class="container footer-grid">
@@ -199,7 +370,16 @@
 
   <script src="https://unpkg.com/@supabase/supabase-js@2"></script>
   <script src="assets/app.js"></script>
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const yearSpan = document.getElementById("year");
+      if (yearSpan) {
+        yearSpan.textContent = new Date().getFullYear();
+      }
+    });
+  </script>
+  
+  <script src="carousel.js"></script>
 </body>
 
 </html>
